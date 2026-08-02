@@ -1,7 +1,23 @@
 aid: villoid
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/villoid.png
 name: Villoid
-description: Villoid is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Villoid is a Norwegian online fashion retailer (villoid.no, redirected from villoid.com)
+  operating a Shopify-hosted boutique that curates over 250 designer and contemporary womenswear brands
+  such as Ganni, Isabel Marant, Stella McCartney and ROTATE Birger Christensen. The store sells dresses,
+  shoes, bags, accessories, sportswear and home goods, offering same-day delivery in Norway, easy returns,
+  gift cards and payment via Klarna, Vipps, Visa and Mastercard. Originally surfaced as a portfolio company
+  of 500 Global, Villoid exposes a consumer storefront and publishes no public developer or API surface.
 url: https://raw.githubusercontent.com/api-evangelist/villoid/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +27,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Fashion
+- E-Commerce
+- Retail
+- Shopping
+- Apparel
+- Norway
+- Shopify
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +46,16 @@ maintainers:
 common:
 - type: Website
   url: https://villoid.com
+- type: DomainSecurity
+  url: security/villoid-domain-security.yml
+- type: Support
+  url: https://villoid.no/pages/kontakt
+- type: PrivacyPolicy
+  url: https://villoid.no/pages/personvern
+- type: TermsOfService
+  url: https://villoid.no/pages/kjopsvilkar
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
