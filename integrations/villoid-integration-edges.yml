@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/villoid/integrations
+- https://n8n.io/integrations/villoid/
+- https://composio.dev/toolkits/villoid
+- https://monid.ai/tools/villoid
+checked:
+- https://composio.dev/toolkits/villoid
+- https://monid.ai/tools/villoid
+- https://n8n.io/integrations/villoid/
+- https://zapier.com/apps/villoid/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
